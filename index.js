@@ -5,7 +5,7 @@ const admin = require('firebase-admin');
 const cors = require('cors');
 
 // Servis hesabı dosyanı buraya ekle!
-const serviceAccount = require('C:\NodeBackendTest\serviceAccountKey.json');
+const serviceAccount = require('/etc/secrets/serviceAccountKey.json');
 
 // Firebase Admin başlat
 admin.initializeApp({
